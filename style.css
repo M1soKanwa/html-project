@@ -1,0 +1,52 @@
+fieldset{
+    display: flex;
+    flex-direction: column;
+    max-width: 455px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.Svaz{
+    display: flex;
+    flex-direction: column;
+    margin-left: 690px;
+    font-size: 50px;
+
+}
+
+.knopka{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 410px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+
+}   
+
+label, input {
+    padding-top: 5px;
+}
+
+body{
+    font-family: 'Shantell Sans', cursive;
+}
+
+textarea{
+    resize: none;
+}
+
+legend{
+    font-size: large;
+    font-weight: bold;
+}
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <p class="Svaz">Форма обратной связи</p>
+
+            <fieldset>
+                <legend>Личные Данные</legend>
+                <label>
+                    Имя
+                    <input type="text" name="name">
+                </label>
+
+                <label>
+                    Электронная почта
+                    <input type="email" name="email">
+                </label>
+
+                <label>
+                    Дата рождения
+                    <input type="date">
+                </label>
+
+            </fieldset>
+        
+
+        
+
+            <fieldset>
+                <legend>Пол</legend>
+                <label>
+                    <input type="radio" value="Male" name="gender">
+                    Мужчина
+                </label>
+
+                <label>
+                     <input type="radio" value="Female" name="gender">
+                    Женщина
+                </label>
+
+                <label>
+                    <input type="radio" value="Nonbinary" name="gender">
+                    Другое
+                </label>
+            </fieldset>
+
+        
+
+        
+
+            <fieldset>
+                <legend>Дополнительные настройки</legend>
+
+                <label>
+                     <input type="radio" value="in agree" name="Spam">
+                    Подписаться на рассылку
+                </label>
+
+            </fieldset>
+
+        
+
+        
+
+            <fieldset>
+                <legend>Выберите категорию ваших интересов</legend>
+                  
+                <select name="Hobbi">
+                    <optgroup label="Технологии"></optgroup>
+                    <option value="">Программирование</option>
+                    <option value="">Сети</option>
+
+                    <optgroup label="Музыка"></optgroup>
+                    <option value="">Рок</option>
+                    <option value="">Поп</option>
+
+                    <optgroup label="Спорт"></optgroup>
+                    <option value="">Футбол</option>
+                    <option value="">Баскетбол</option>
+                    <option value="">Волейбол</option>
+                </select>
+            </fieldset>
+        
+
+        
+
+            <fieldset>
+                <legend>Как вы про нас узнали?</legend>
+
+                <label>
+                   <input type="radio" value="Search" name="Kak">
+                    Поисковые системы
+                </label>
+
+                <label>
+                    <input type="radio" value="Social" name="Kak">
+                    Социальные сети
+                </label>
+
+                <label>
+                    <input type="radio" value="Friends" name="Kak">
+                    Совет друзей/знакомых                    
+                </label>
+            </fieldset>
+        
+
+        
+
+            <fieldset>
+                <legend>Опишите свои впечатления/Жалобы/Предложения</legend>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </fieldset>
+        </form>
+        <button type="submit" class="knopka">Отправить форму</button>
+    </body>
+</html>
